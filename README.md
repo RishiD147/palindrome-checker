@@ -4,7 +4,7 @@ This repository contains a simple script that checks if a word or phrase is a pa
 
 ## Code in This Repo  
 ```python
-text = input("Enter any word or phrase: ").replace(" ", "").lower()  
+text = input("Enter the word or phrase: ").replace(" ", "").lower()  
 if text == text[::-1]:  
     print("It's a palindrome! 🎉")  
 else:  
